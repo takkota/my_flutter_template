@@ -1,4 +1,4 @@
-package com.onlybiz.tecomm
+package net.onlybiz.my_flutter_template
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

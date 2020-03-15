@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
 import 'package:provider/provider.dart';
-import 'package:tecomm/app.dart';
-import 'package:tecomm/router.dart';
-import 'package:tecomm/run.iconfig.dart';
+import 'package:my_flutter_template/app.dart';
+import 'package:my_flutter_template/router.dart';
+import 'package:my_flutter_template/run.iconfig.dart';
 
 enum Environment {
   remote,

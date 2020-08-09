@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:injectable/injectable.dart';
 
-@registerModule
+@module
 abstract class UiModule {
-  final GlobalKey<NavigatorState> navigatorKey = new GlobalKey<NavigatorState>();
+  final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 }
